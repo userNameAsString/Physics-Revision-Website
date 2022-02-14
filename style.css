@@ -1,0 +1,100 @@
+
+body{
+    background-color:#232323;
+    font-family:Trebuchet MS;
+}
+.normtext{
+    color:rgb(233, 227, 227);
+    font-size:20px; 
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.title{
+    color:rgb(233, 227, 227);
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    
+}
+.equation{
+    color:#D6A8FF;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.normal{
+    width: 32.9%;
+    height: 150px;
+    background-color: #393939;
+    border: none;
+    border-radius: 10px;
+    color: rgb(196, 129, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.desc{
+    color:rgba(190, 88, 221, 0.911);
+    font-size:25px; 
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+.empty{
+    color: #232323;
+    background-color: #232323;
+    border: none;
+    width: 20%;
+}
+sup{
+    font-size: 18px;
+}
+sub{
+    font-size: 18px;
+}
+.endPageButton{
+    width: 20%;
+    height: 150px;
+    background-color: #393939;
+    border: none;
+    border-radius: 10px;
+    color: rgb(196, 129, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.rearrange{
+    color:rgba(142, 101, 238, 0.904);
+    font-size:25px; 
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+}
+footer{
+    font-size:25px; 
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    background-color: #666666;
+    color: #232323;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0px;
+    height: 40px;
+    width: 100%;
+}
