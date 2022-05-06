@@ -26,6 +26,7 @@ body{
     align-items:center; 
 }
 .normal{
+    transition: 0.3s;
     width: 32.9%;
     height: 150px;
     background-color: #393939;
@@ -41,6 +42,11 @@ body{
     cursor: pointer;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+button:hover{
+    background-color:rgb(125, 88, 157);
+    color: #ffffff;
+}    
+    
 .desc{
     color:rgba(190, 88, 221, 0.911);
     font-size:25px; 
@@ -54,6 +60,10 @@ body{
     border: none;
     width: 20%;
 }
+.empty:hover{
+    color: #232323;
+    background-color: #232323;
+}
 sup{
     font-size: 18px;
 }
@@ -61,6 +71,7 @@ sub{
     font-size: 18px;
 }
 .endPageButton{
+    transition: 0.3s;
     width: 20%;
     height: 150px;
     background-color: #393939;
