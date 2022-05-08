@@ -1,4 +1,3 @@
-
 body{
     background-color:#232323;
     font-family:Trebuchet MS;
@@ -28,6 +27,23 @@ body{
 .normal{
     transition: 0.3s;
     width: 32.9%;
+    height: 150px;
+    background-color: #393939;
+    border: none;
+    border-radius: 10px;
+    color: rgb(196, 129, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.mode{
+    transition: 0.3s;
+    width: 48%;
     height: 150px;
     background-color: #393939;
     border: none;
@@ -134,3 +150,16 @@ img{
     margin-left: 20%;
     width:60%;
 }
+.icon{
+    margin: auto;
+    padding: none;
+    height: 80%;
+    width: auto;
+}
+.icon2{
+    margin: auto;
+    padding: none;
+    height: 70%;
+    width: auto;
+}
+
