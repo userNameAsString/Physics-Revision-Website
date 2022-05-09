@@ -19,11 +19,14 @@ function mobileMode() {
     for (let i = 0; i < document.getElementsByClassName("empty").length ; i++){
         document.getElementsByClassName("empty")[i].style.width = "0.1%";
     }
+    for (let i = 0; i < document.getElementsByTagName("ul").length ; i++){
+      document.getElementsByTagName("ul")[i].style.marginLeft = "5%";
+    }
 
   }
 function computerMode() {
     for (let i = 0; i < document.getElementsByClassName("mode").length ; i++){
-      document.getElementsByClassName("mode")[i].style.margin = "4px 2px";
+      document.getElementsByClassName("mode")[i].style.margin = "0.4% 0.9%";
       document.getElementsByClassName("mode")[i].style.width = "48%";
     }
     document.getElementById("p").innerHTML='Mobile mode';
@@ -41,5 +44,9 @@ function computerMode() {
     document.getElementById("h").innerHTML='Home';
     document.getElementById("b").innerHTML='Back';
     document.getElementById("n").innerHTML='Next';
+    for (let i = 0; i < document.getElementsByTagName("ul").length ; i++){
+      document.getElementsByTagName("ul")[i].style.marginLeft = "20%";
+    }
+
   }
 computerMode()
