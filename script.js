@@ -49,7 +49,7 @@ function computerMode() {
       document.getElementsByTagName("ul")[i].style.marginLeft = "20%";
     }
   }  
-alert(isMobile)
+console.log("Is the device considered mobile: " & isMobile)
 if (isMobile == true) {
   mobileMode()
 } else {
