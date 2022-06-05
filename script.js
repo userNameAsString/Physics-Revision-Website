@@ -13,10 +13,11 @@ function mobileMode() {
         document.getElementsByClassName("endPageButton")[i].style.width = "30%";
         document.getElementsByClassName("endPageButton")[i].style.margin = "0.3%";
     }
+    if (document.getElementById("h") != null) {
     document.getElementById("h").innerHTML='<img class = "icon2" alt="Home" src="home.png">';
     document.getElementById("b").innerHTML='<img class = "icon2" alt="Back" src="back.png">';
     document.getElementById("n").innerHTML='<img class = "icon2" alt="Next" src="next.png">';
-
+    }
     for (let i = 0; i < document.getElementsByClassName("empty").length ; i++){
         document.getElementsByClassName("empty")[i].style.width = "0.1%";
     }
@@ -30,8 +31,8 @@ function computerMode() {
       document.getElementsByClassName("mode")[i].style.margin = "0.4% 0.9%";
       document.getElementsByClassName("mode")[i].style.width = "48%";
     }
-    document.getElementById("p").innerHTML='Mobile mode';
-    document.getElementById("c").innerHTML='Computer mode';
+    document.getElementById("p").innerHTML="Mobile mode";
+    document.getElementById("c").innerHTML="Computer mode";
 
     for (let i = 0; i < document.getElementsByClassName("normal").length ; i++){
       document.getElementsByClassName("normal")[i].style.width = "32.9%";
@@ -42,17 +43,20 @@ function computerMode() {
     for (let i = 0; i < document.getElementsByClassName("empty").length ; i++){
         document.getElementsByClassName("empty")[i].style.width = "20%";
     }
-    document.getElementById("h").innerHTML='Home';
-    document.getElementById("b").innerHTML='Back';
-    document.getElementById("n").innerHTML='Next';
+    if (document.getElementById("h") != null) {
+      document.getElementById("h").innerHTML='Home';
+      document.getElementById("b").innerHTML='Back';
+      document.getElementById("n").innerHTML='Next';
+    }
     for (let i = 0; i < document.getElementsByTagName("ul").length ; i++){
       document.getElementsByTagName("ul")[i].style.marginLeft = "20%";
     }
   }  
-console.log("Is the device considered mobile: " & isMobile)
+console.log("Is the device considered mobile: " + isMobile)
 if (isMobile == true) {
-  mobileMode()
-} else {
+   console.log("Mobile mode activated")
+   mobileMode()
+} else {  
+  console.log("Computer mode activated")
   computerMode()
 }
-
