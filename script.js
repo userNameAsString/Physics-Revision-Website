@@ -1,3 +1,4 @@
+const isMobile = /android.+mobile|ip(hone|[oa]d)/i.test(navigator.userAgent);
 function mobileMode() {
   for (let i = 0; i < document.getElementsByClassName("mode").length ; i++){
     document.getElementsByClassName("mode")[i].style.margin = "3% 7%";
@@ -47,6 +48,9 @@ function computerMode() {
     for (let i = 0; i < document.getElementsByTagName("ul").length ; i++){
       document.getElementsByTagName("ul")[i].style.marginLeft = "20%";
     }
-
-  }
-computerMode()
+  }  
+if (isMobile == true) {
+  mobileMode()
+} else {
+  computerMode()
+}
