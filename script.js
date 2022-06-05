@@ -49,9 +49,10 @@ function computerMode() {
       document.getElementsByTagName("ul")[i].style.marginLeft = "20%";
     }
   }  
+console.log(isMobile)
 if (isMobile == true) {
   mobileMode()
 } else {
   computerMode()
 }
-console.log(isMobile)
+
