@@ -54,3 +54,4 @@ if (isMobile == true) {
 } else {
   computerMode()
 }
+console.log(isMobile)
