@@ -12,9 +12,9 @@ function mobileMode() {
         document.getElementsByClassName("endPageButton")[i].style.margin = "0.3%";
     }
     if (document.getElementById("h") != null) {
-    document.getElementById("h").innerHTML='<img class = "icon" alt="Home" src="Images/home.png">';
-    document.getElementById("b").innerHTML='<img class = "icon" alt="Back" src="Images/back.png">';
-    document.getElementById("n").innerHTML='<img class = "icon" alt="Next" src="Images/next.png">';
+    document.getElementById("h").innerHTML='<img class = "icon" alt="Home" src="home.png">';
+    document.getElementById("b").innerHTML='<img class = "icon" alt="Back" src="back.png">';
+    document.getElementById("n").innerHTML='<img class = "icon" alt="Next" src="next.png">';
     }
     for (let i = 0; i < document.getElementsByClassName("empty").length ; i++){
         document.getElementsByClassName("empty")[i].style.width = "0.1%";
