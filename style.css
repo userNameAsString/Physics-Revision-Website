@@ -39,7 +39,7 @@ body{
     font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .mode{
     transition: 0.3s;
@@ -56,7 +56,7 @@ body{
     font-size: 30px;
     margin: 0.4% 0.9%;
     cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button:hover{
     background-color:rgb(125, 88, 157);
@@ -81,10 +81,12 @@ button:hover{
     background-color: #232323;
 }
 sup{
-    font-size: 18px;
+    font-size: 16px;
+    margin-bottom:10px ;
 }
 sub{
-    font-size: 18px;
+    font-size: 15px;
+    margin-top:11px ;   
 }
 .endPageButton{
     transition: 0.3s;
@@ -101,7 +103,7 @@ sub{
     font-size: 30px;
     margin: 4px 2px;
     cursor: pointer;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .rearrange{
     color:rgba(142, 101, 238, 0.904);
@@ -147,7 +149,7 @@ ul{
     margin-left: 20%;
 }
 img{
-    margin-left: 20%;
+    margin-left: 20.5%;
     width:60%;
 }
 .icon{
